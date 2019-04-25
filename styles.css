@@ -1,0 +1,73 @@
+/* HOME2 */
+
+/* HOME1 
+colors:
+darkgrey
+#27aae1 */
+
+.box {
+  height: 400px;
+  width: 100%;
+  justify-self: center;
+  margin-top: 5vh;
+  margin-right: 5px;
+  background: #27aae1;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  z-index: -1;
+  position: fixed;
+  overflow: hidden;
+}
+
+.box2 {
+  height: 100px;
+  width: 100%;
+  margin-top: 20vh;
+  background: white;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  z-index: 0;
+  position: fixed;
+}
+
+.circle {
+  border-radius: 50%;
+  background: white;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+  width: 275px;
+  height: 275px;
+  z-index: 1;
+  position: center;
+}
+
+h1 {
+  padding: 1.25em;
+  margin-top: 1.5em;
+  color: darkgray;
+  position: fixed;
+  z-index: 4;
+}
+
+h2 {
+  margin-top: 4em;
+  margin-left: 65%;
+  color: darkgray;
+
+  position: fixed;
+  z-index: 4;
+}
+
+.encourage {
+  font-family: "Lily Script One", cursive;
+  font-size: x-large;
+  text-align: center;
+  color: darkgray;
+}
+
+.bold {
+  color: #27aae1;
+  font-size: xx-large;
+}
