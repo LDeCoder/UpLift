@@ -1,39 +1,69 @@
 /* HOME2 */
-
-/* HOME1 
-colors:
-darkgrey
-#27aae1 */
-
-.box {
-  height: 400px;
-  width: 100%;
+.home2box1 {
+  height: 100vh;
+  width: 50%;
   justify-self: center;
-  margin-top: 5vh;
-  margin-right: 5px;
-  background: #27aae1;
+  background: #231f20;
+  /* opacity: 0.2; */
   color: white;
   font-family: "Quicksand", sans-serif;
   display: flex;
-  z-index: -1;
+  z-index: -3;
   position: fixed;
   overflow: hidden;
 }
 
-.box2 {
-  height: 100px;
+.home2box2 {
+  height: 100%;
   width: 100%;
-  margin-top: 20vh;
-  background: white;
-  font-family: "Quicksand", sans-serif;
-  display: flex;
+  padding: 2px;
+  margin-top: 2%;
+  margin-left: 50%;
+  background: #e6e7e8;
+  /* opacity: 0.2; */
+  font-family: "Lily Script One", cursive;
+  /* display: flex; */
   z-index: 0;
   position: fixed;
+  overflow: hidden;
 }
 
-.circle {
+.home2p1 {
+  margin-left: 5%;
+  margin-top: 6%;
+  font-size: 1300%;
+  opacity: 0.5;
+  color: #662d91;
+}
+
+.home2p2 {
+  margin-top: 4%;
+  font-size: 550%;
+  color: #662d91;
+  position: fixed;
+  z-index: 1;
+}
+
+.home2p3 {
+  margin-top: -35%;
+  font-size: 500%;
+  color: #231f20;
+  transform: rotate(-25deg);
+  position: fixed;
+  z-index: 1;
+}
+
+.home2p4 {
+  margin-top: -38%;
+  font-size: 600%;
+  color: #231f20;
+  position: fixed;
+  z-index: 1;
+}
+
+.home2circle {
   border-radius: 50%;
-  background: white;
+  background: red;
   margin-left: 35%;
   margin-right: 35%;
   margin-top: 5%;
@@ -43,31 +73,120 @@ darkgrey
   position: center;
 }
 
-h1 {
-  padding: 1.25em;
-  margin-top: 1.5em;
-  color: darkgray;
-  position: fixed;
-  z-index: 4;
-}
-
-h2 {
-  margin-top: 4em;
-  margin-left: 65%;
-  color: darkgray;
-
-  position: fixed;
-  z-index: 4;
-}
-
-.encourage {
-  font-family: "Lily Script One", cursive;
+.home2encourage {
+  font-family: "Limelight", cursive;
   font-size: x-large;
   text-align: center;
-  color: darkgray;
+  margin-left: 55%;
+  padding: 5%;
+  opacity: 0.5;
+  color: #662d91;
+}
+
+.home2bold {
+  color: #662d91;
+  /* opacity: 0.5; */
+  font-size: xx-large;
+}
+
+/* HOME1 
+colors:
+darkgrey
+#27aae1 */
+
+.home1body {
+  background: rgb(167, 169, 172);
+  display: block;
+  margin: 2px;
+  text-align: center;
+}
+
+.home1logo {
+  margin-top: 20%;
+  height: auto;
+  width: 375px;
+}
+
+.home1box1 {
+  margin-top: 20%;
+  font-family: "Assistant", sans-serif;
+  text-align: center;
+  position: fixed;
+  z-index: -1;
+}
+
+.home1circle {
+  margin-top: 5%;
+  margin-left: 30%;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background: white;
+  color: lightgray;
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+}
+
+.signUp {
+  margin-top: 15%;
+  background: white;
+  height: 150px;
+  color: #27aae1;
+}
+
+.home1p2 {
+  font-family: "Assistant", sans-serif;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  font-size: 6em;
+  z-index: 0;
+}
+
+.home1p3 {
+  font-family: "Assistant", sans-serif;
+  margin-left: 60%;
+  text-align: right;
+  padding: 20px;
+  margin-top: -17%;
+  position: relative;
+  font-size: 3em;
+  z-index: 0;
+}
+
+.home1encourage {
+  background: white;
+  font-family: "Assistant", sans-serif;
+  font-size: large;
+  text-align: center;
+  color: lightgray;
+  padding: 0px;
+  height: 65px;
+}
+
+.home1nav {
+  color: white;
 }
 
 .bold {
   color: #27aae1;
   font-size: xx-large;
+  font-family: "Lily-Script-One", cursive;
+}
+
+.home1footer {
+  display: center;
+  margin-top: 15%;
+  margin-bottom: 0;
+  height: 75px;
+  position: sticky;
+  background: white;
+  padding: 2%;
+}
+
+.active {
+  font-family: "Assistant", sans-serif;
+  color: #27aae1;
+  align-items: center;
 }
