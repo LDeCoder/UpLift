@@ -182,19 +182,18 @@ darkgrey
 }
 
 @media screen and (max-width: 1025px) {
-
-.home1circle {
-  margin-top: 2%;
-  margin-left: 20%;
-  width: 60%;
-  text-align: center;
-  position: relative;
-  padding-bottom: 60%;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: white;
-  z-index: 0;
-}
+  .home1circle {
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    z-index: 0;
+  }
 
   .home1encourage,
   .bold {
@@ -208,11 +207,11 @@ darkgrey
     margin-top: 1%;
     height: 15vh;
     font-size: 3em;
-}
+  }
   .home1p2 {
     margin-top: 3%;
   }
-
+}
 
 @media screen and (max-width: 780px) {
   .home1circle {
