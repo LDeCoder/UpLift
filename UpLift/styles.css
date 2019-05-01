@@ -14,7 +14,7 @@
 .home2box2 {
   height: 63vh;
   padding: 2%;
-  margin-top: 11%;
+  margin-top: 5%;
   margin-left: 46%;
   background: RGB(230, 231, 232);
   /* opacity: 0.2; */
@@ -194,6 +194,20 @@ darkgrey
 
 /* large tablets */
 @media screen and (max-width: 1025px) {
+  /* Home 2 */
+  .home2encourage,
+  .home2box2,
+  .home2footer {
+    padding-top: 20%;
+  }
+
+  .beEncouragedImg {
+    height: 50%;
+    width: 100%;
+    padding: 3%;
+  }
+
+  /* Home 1 */
   .home1circle {
     margin-top: 2%;
     margin-left: 20%;
@@ -227,6 +241,20 @@ darkgrey
 
 /* tablets */
 @media screen and (max-width: 780px) {
+  /* Home2 */
+  .home2encourage,
+  .home2box2,
+  .home2footer {
+    padding-top: 15%;
+  }
+
+  .beEncouragedImg {
+    height: 50%;
+    width: 100%;
+    padding: 3%;
+  }
+
+  /* Home1 */
   .home1circle {
     margin-top: 2%;
     margin-left: 20%;
@@ -267,6 +295,60 @@ darkgrey
 
 /* phones */
 @media screen and (max-width: 430px) {
+  /* Home 2 */
+  .home2body {
+    background: black;
+  }
+
+  .home2box1 {
+    width: 100%;
+  }
+
+  .home2circle,
+  .home2circle2 {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+
+  .home2encourage,
+  .home2bold {
+    color: #d1cfd3;
+    font-size: 1.1em;
+    margin-left: 60%;
+    margin-bottom: 15%;
+    text-align: right;
+  }
+
+  .home2box2 {
+    margin-top: -10%;
+    width: 100%;
+    margin-left: -3%;
+    height: 15vh;
+    background: white;
+  }
+
+  .beEncouragedImg {
+    margin-top: -10%;
+    height: 75%;
+    width: 75%;
+    margin-left: 10%;
+  }
+
+  .home2h1 {
+    margin-left: 35%;
+    margin-top: 75%;
+    font-size: 1.75em;
+  }
+
+  .home2active,
+  .home2h3 {
+    color: white;
+    font-size: 0.75em;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+
+  /* Home 1 */
   .home1circle {
     margin-top: 2%;
     margin-left: 20%;
