@@ -1,0 +1,425 @@
+/* HOME2 */
+
+.home2box1 {
+  height: 100vh;
+  width: 40%;
+  background: black;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  z-index: -3;
+  position: fixed;
+  padding: 3%;
+}
+
+.home2box2 {
+  height: 63vh;
+  padding: 2%;
+  margin-top: 5%;
+  margin-left: 46%;
+  background: RGB(230, 231, 232);
+  /* opacity: 0.2; */
+  font-family: "Lily Script One", cursive;
+  display: flex;
+  z-index: 0;
+  position: fixed;
+  align-items: left;
+}
+
+.beEncouragedImg {
+  width: 95%;
+  height: 80%;
+  padding: 3%;
+}
+
+.home2circle2 {
+  margin-top: 6%;
+  width: 85%;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 85%;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: RGB(102, 45, 145);
+  opacity: 0.25;
+  z-index: 1;
+}
+.home2circle {
+  margin-top: 6%;
+  width: 85%;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 85%;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.75;
+  z-index: -1;
+}
+
+.home2logo {
+  position: absolute;
+  width: 70%;
+  height: 45%;
+  top: 25%;
+  left: 15%;
+  z-index: 0;
+}
+
+.home2footer {
+  width: 47%;
+  /* padding: 1.25%; */
+  margin-top: 30%;
+  font-size: 1.5em;
+  height: 8vh;
+  color: #8b729e;
+  opacity: 0.55;
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+}
+
+.home2h3,
+.home2active {
+  color: RGB(188, 190, 192);
+  opacity: 0.85;
+  margin-top: -10%;
+  font-size: 1.1em;
+}
+
+.home2encourage {
+  font-family: "Quicksand";
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 45%;
+  padding-top: 5%;
+  opacity: 0.5;
+  color: #662d91;
+}
+
+.home2bold {
+  color: #662d91;
+  font-size: 1.25em;
+  font-family: "Lily Script One", cursive;
+}
+
+/* HOME1 
+colors:
+darkgrey
+#27aae1 */
+
+/* .home1body {
+  background: rgb(167, 169, 172);
+  display: block;
+  text-align: center;
+}
+
+.home1circle {
+  margin-top: 6%;
+  margin-left: 35%;
+  width: 35%;
+  text-align: center;
+  position: relative;
+  padding-bottom: 35%;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  z-index: 0;
+}
+.home1logo {
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  top: 15%;
+  left: 3%;
+}
+
+.home1p2 {
+  font-family: "Assistant", sans-serif;
+  color: #27aae1;
+  text-align: left;
+  position: relative;
+  font-size: 3em;
+  margin-top: -25%;
+  z-index: -3;
+  background: white;
+  padding: 5%;
+}
+
+.home1p3 {
+  font-family: "Assistant", sans-serif;
+  color: #27aae1;
+  text-align: right;
+  position: relative;
+  font-size: 2em;
+  margin-top: -17%;
+  z-index: -2;
+  background: transparent;
+  padding: 2%;
+}
+
+.home1encourage {
+  background: white;
+  font-family: "Assistant", sans-serif;
+  font-size: 1.75em;
+  text-align: center;
+  color: rgb(167, 169, 172);
+  height: 9vh;
+  padding: 0.5%;
+}
+
+.home1nav {
+  color: white;
+}
+
+.bold {
+  color: #27aae1;
+  font-size: large;
+  font-family: "Lily-Script-One", cursive;
+}
+
+.home1footer {
+  display: center;
+  margin-top: 19%;
+  margin-bottom: 0;
+  font-size: 1em;
+  height: 12vh;
+  background: white;
+}
+
+.active {
+  font-family: "Assistant", sans-serif;
+  color: #27aae1;
+  align-items: center;
+  margin-left: 5%;
+} */
+
+/* large tablets */
+@media screen and (max-width: 1025px) {
+  /* Home 2 */
+  .home2encourage,
+  .home2box2,
+  .home2footer {
+    padding-top: 20%;
+  }
+
+  .beEncouragedImg {
+    height: 50%;
+    width: 100%;
+    padding: 3%;
+  }
+
+  /* Home 1 */
+  .home1circle {
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    z-index: 0;
+  }
+
+  .home1encourage,
+  .bold {
+    margin-top: 3%;
+    padding: 2%;
+    height: 15vh;
+    font-size: 2em;
+  }
+  .home1footer {
+    padding-top: 3%;
+    margin-top: 1%;
+    height: 15vh;
+    font-size: 3em;
+  }
+  .home1p2 {
+    margin-top: 3%;
+  }
+}
+
+/* tablets */
+@media screen and (max-width: 780px) {
+  /* Home2 */
+  .home2encourage,
+  .home2box2,
+  .home2footer {
+    padding-top: 15%;
+  }
+
+  .beEncouragedImg {
+    height: 50%;
+    width: 100%;
+    padding: 3%;
+  }
+
+  /* Home1 */
+  .home1circle {
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    z-index: 0;
+  }
+
+  .active,
+  .home1encourage,
+  .home1footer {
+    height: 25%;
+    font-size: 1.75em;
+    padding: 5%;
+    margin-top: 0;
+  }
+  .home1p3 {
+    text-align: center;
+    height: 25%;
+    color: #27aae1;
+    margin-top: 0%;
+    background: white;
+    font-size: 3em;
+  }
+  .home1p2 {
+    text-align: center;
+    margin-top: 3%;
+    color: #27aae1;
+    font-size: 5em;
+    background: white;
+  }
+}
+
+/* phones */
+@media screen and (max-width: 430px) {
+  /* Home 2 */
+  .home2body {
+    background: black;
+  }
+
+  .home2box1 {
+    width: 100%;
+  }
+
+  .home2circle,
+  .home2circle2 {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+
+  .home2encourage,
+  .home2bold {
+    color: #d1cfd3;
+    font-size: 1.1em;
+    margin-left: 60%;
+    margin-bottom: 15%;
+    text-align: right;
+  }
+
+  .home2box2 {
+    margin-top: -10%;
+    width: 100%;
+    margin-left: -3%;
+    height: 15vh;
+    background: white;
+  }
+
+  .beEncouragedImg {
+    margin-top: -10%;
+    height: 75%;
+    width: 75%;
+    margin-left: 10%;
+  }
+
+  .home2h1 {
+    margin-left: 35%;
+    margin-top: 75%;
+    font-size: 1.75em;
+  }
+
+  .home2active,
+  .home2h3 {
+    color: white;
+    font-size: 0.75em;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+
+  /* Home 1 */
+  .home1circle {
+    margin-top: 2%;
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    padding-bottom: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    z-index: 0;
+  }
+
+  .active,
+  .home1encourage,
+  .home1footer {
+    height: 25%;
+    font-size: 1em;
+    padding: 5%;
+    margin-top: 0;
+  }
+  .home1p3 {
+    text-align: center;
+    height: 25%;
+    color: #27aae1;
+    font-size: 1.75em;
+    margin-top: 0%;
+    background: white;
+  }
+
+  .home1p3 {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 3em;
+    color: #27aae1;
+    background: white;
+  }
+}
+
+/* For HOME Page 2, I went ahead and saved my code for the encourage and be encouraged saying.  However, the font is not available, and this Lily Script One font simply does not do it justice.  I will research how to add my own font, which I suspect will be as simple as importing a .ttf file.  But for the time being, I have simply created an image of this graphic and will be displaying that at this time. My code is below:
+
+/* encourage */
+/* .home2p2 {
+  margin-left: 0%;
+  margin-top: -9%;
+  font-size: 7em;
+  color: #662d91;
+} */
+
+/* & */
+/* .home2p1 {
+  margin-left: -60%;
+  margin-top: 1%;
+  font-size: 15em;
+  opacity: 0.5;
+  color: #662d91;
+} */
+
+/* be */
+/* .home2p4 {
+  margin-top: 5%;
+  font-size: 10em;
+  color: #231f20;
+} */
+
+/* encouraged */
+/* .home2p3 {
+  margin-top: 17%;
+  font-size: 6.75em;
+  color: #231f20;
+  transform: rotate(-15deg);
+  position: fixed;
+  z-index: 1;
+} */
