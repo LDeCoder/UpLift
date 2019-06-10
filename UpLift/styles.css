@@ -1,7 +1,8 @@
 /* HOME3 */
-.home3body {
-  background: white;
-  overflow: hidden;
+
+.home3background {
+  background: repeating-linear-gradient(rgba(0, 128, 128, 0.454), white);
+  height: 65vh;
 }
 
 .home3encourage {
@@ -12,22 +13,22 @@
   color: RGB(88, 89, 91);
 }
 
-.home3top {
+/* .home3top {
   margin-top: -25%;
-  background: teal;
+  background: white;
   position: absolute;
-  z-index: -10;
-  opacity: 0.1;
+  z-index: 9;
+  opacity: 0.25;
   width: 100%;
   height: 97%;
-}
+} */
 
 .home3line {
   width: 100%;
   height: 0;
   border: 3px RGB(88, 89, 91) solid;
-  margin-top: 25%;
-  position: absolute;
+  margin-top: -10.75%;
+  position: relative;
   z-index: 7;
 }
 
@@ -38,20 +39,40 @@
 }
 
 .home3logo {
-  position: absolute;
+  position: relative;
   width: 30%;
   /* height: 45%; */
-  top: 48.75%;
-  left: 33%;
+  margin-top: 15%;
+  left: 33.21%;
   z-index: 9;
 }
-/* 
-.home3footer {
-  margin-left: 40%;
-  font-family: "Assistant", sans-serif;
-} */
 
-.home3active1 {
+a {
+  color: red;
+  display: center;
+}
+
+.home3footer {
+  display: center;
+  font-family: "Assistant", sans-serif;
+}
+
+.home3nav {
+  /* margin-top: 25%;
+  align-content: space-around;
+  background: rgba(0, 128, 128, 0.454);
+  columns: 4;
+  font-size: small;
+  display: block; */
+  /* align-self: center; */
+  display: center;
+  margin-top: 23%;
+  font-size: 1em;
+  height: 12vh;
+  /* background: rgba(0, 128, 128, 0.454); */
+}
+
+/* .home3active1 {
   margin-top: 40.15%;
   margin-left: 25%;
   position: fixed;
@@ -72,7 +93,7 @@
   position: fixed;
   z-index: 10;
   color: rgb(228, 203, 15);
-}
+} */
 
 .home3circle6 {
   margin-top: 10%;
@@ -406,6 +427,20 @@ darkgrey
 
 /* tablets */
 @media screen and (max-width: 780px) {
+  /* Home 3 */
+  .home3background {
+    background: repeating-linear-gradient(rgba(0, 128, 128, 0.454), white);
+    height: 35vh;
+  }
+
+  .home3encourage {
+    font-size: 1em;
+  }
+
+  .home3line {
+    border: 2px solid RGB(88, 89, 91);
+  }
+
   /* Home2 */
   .home2encourage,
   .home2box2,
@@ -460,6 +495,12 @@ darkgrey
 
 /* phones */
 @media screen and (max-width: 430px) {
+  /* Home 3 */
+  .home3background {
+    background: repeating-linear-gradient(rgba(0, 128, 128, 0.454), white);
+    height: 25vh;
+  }
+
   /* Home 2 */
   .home2body {
     background: black;
@@ -531,7 +572,7 @@ darkgrey
   .home1encourage,
   .home1footer {
     height: 25%;
-    font-size: 1em;
+    font-size: 0.25em;
     padding: 5%;
     margin-top: 0;
   }
@@ -588,3 +629,11 @@ darkgrey
   position: fixed;
   z-index: 1;
 } */
+
+/* gradient background: 
+background: repeating-linear-gradient(
+  #74abdd,
+  #74abdd 49.9%,
+  #498dcb 50.1%,
+  #498dcb 100%
+); */
