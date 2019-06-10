@@ -7,21 +7,11 @@
 
 .home3encourage {
   font-family: "Assistant", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   text-align: center;
   opacity: 0.5;
   color: RGB(88, 89, 91);
 }
-
-/* .home3top {
-  margin-top: -25%;
-  background: white;
-  position: absolute;
-  z-index: 9;
-  opacity: 0.25;
-  width: 100%;
-  height: 97%;
-} */
 
 .home3line {
   width: 100%;
@@ -47,8 +37,13 @@
   z-index: 9;
 }
 
-a {
-  color: red;
+a,
+.home3active1,
+.home3active2,
+.home3active3 {
+  padding: 2%;
+  font-size: 1.5em;
+  color: white;
   display: center;
 }
 
@@ -58,17 +53,12 @@ a {
 }
 
 .home3nav {
-  /* margin-top: 25%;
   align-content: space-around;
   background: rgba(0, 128, 128, 0.454);
-  columns: 4;
-  font-size: small;
-  display: block; */
-  /* align-self: center; */
   display: center;
   margin-top: 23%;
   font-size: 1em;
-  height: 12vh;
+  height: 5vh;
   /* background: rgba(0, 128, 128, 0.454); */
 }
 
@@ -249,8 +239,8 @@ a {
   width: 47%;
   /* padding: 1.25%; */
   margin-top: 40%;
-  font-size: 1em;
-  height: 8vh;
+  font-size: 0.75em;
+  height: vh;
   color: #8b729e;
   opacity: 0.55;
   text-align: center;
@@ -345,7 +335,7 @@ darkgrey
 .home1encourage {
   background: white;
   font-family: "Assistant", sans-serif;
-  font-size: 1.75em;
+  font-size: 1.5em;
   text-align: center;
   color: rgb(167, 169, 172);
   height: 9vh;
@@ -366,7 +356,7 @@ darkgrey
   display: center;
   margin-top: 19%;
   margin-bottom: 0;
-  font-size: 1em;
+  font-size: 0.75em;
   height: 12vh;
   background: white;
 }
@@ -412,13 +402,13 @@ darkgrey
     margin-top: 3%;
     padding: 2%;
     height: 15vh;
-    font-size: 2em;
+    font-size: 1em;
   }
   .home1footer {
     padding-top: 3%;
     margin-top: 1%;
     height: 15vh;
-    font-size: 3em;
+    font-size: 2em;
   }
   .home1p2 {
     margin-top: 3%;
@@ -434,7 +424,7 @@ darkgrey
   }
 
   .home3encourage {
-    font-size: 1em;
+    font-size: 0.5em;
   }
 
   .home3line {
@@ -472,7 +462,7 @@ darkgrey
   .home1encourage,
   .home1footer {
     height: 25%;
-    font-size: 1.75em;
+    font-size: 1em;
     padding: 5%;
     margin-top: 0;
   }
@@ -581,7 +571,7 @@ darkgrey
     height: 25%;
     color: #27aae1;
     font-size: 1.75em;
-    margin-top: 0%;
+    margin-top: 3%;
     background: white;
   }
 
@@ -593,47 +583,3 @@ darkgrey
     background: white;
   }
 }
-
-/* For HOME Page 2, I went ahead and saved my code for the encourage and be encouraged saying.  However, the font is not available, and this Lily Script One font simply does not do it justice.  I will research how to add my own font, which I suspect will be as simple as importing a .ttf file.  But for the time being, I have simply created an image of this graphic and will be displaying that at this time. My code is below:
-
-/* encourage */
-/* .home2p2 {
-  margin-left: 0%;
-  margin-top: -9%;
-  font-size: 7em;
-  color: #662d91;
-} */
-
-/* & */
-/* .home2p1 {
-  margin-left: -60%;
-  margin-top: 1%;
-  font-size: 15em;
-  opacity: 0.5;
-  color: #662d91;
-} */
-
-/* be */
-/* .home2p4 {
-  margin-top: 5%;
-  font-size: 10em;
-  color: #231f20;
-} */
-
-/* encouraged */
-/* .home2p3 {
-  margin-top: 17%;
-  font-size: 6.75em;
-  color: #231f20;
-  transform: rotate(-15deg);
-  position: fixed;
-  z-index: 1;
-} */
-
-/* gradient background: 
-background: repeating-linear-gradient(
-  #74abdd,
-  #74abdd 49.9%,
-  #498dcb 50.1%,
-  #498dcb 100%
-); */
